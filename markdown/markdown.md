@@ -21,6 +21,6 @@ You can use GFM in the following areas:
 
 * irc://irc.freenode.net/gitlab
 
-* http://localhost:3000
+* [http://localhost:3000](http://localhost:3000/)
 
-* Multiline Blockquote 
+# Multiline Blockquote 
