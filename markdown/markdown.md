@@ -1,5 +1,5 @@
 # Markdown
-# Contents
+# On this page:
 - [GitLab Flavored Markdown (GFM)](##gitLab_flavored_markdown (GFM))
 ## GitLab Flavored Markdown (GFM)
 >**Note:** Not all of the GitLab-specific extensions to Markdown that are described in this document currently work on our documentation website.
@@ -49,23 +49,23 @@ do_this_and_do_that_and_another_thing
 ```
 perform_complicated_task   
 do_this_and_do_that_and_another_thing
+## URL auto-linking 
+>If this is not rendered correctly, see https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#url-auto-linking
 
-
-
-
-
-
-
-* [https://www.google.com](https://www.google.com/)
-
-* [https://google.com/](https://google.com/)
-
-* [ftp://ftp.us.debian.org/debian/](ftp://ftp.us.debian.org/debian/)
-
+GFM will autolink almost any URL you copy and paste into your text:
+```Java
+* https://www.google.com
+* https://google.com/
+* ftp://ftp.us.debian.org/debian/
 * smb://foo/bar/baz
-
 * irc://irc.freenode.net/gitlab
-
+* http://localhost:3000
+```
+* [https://www.google.com](https://www.google.com/)
+* [https://google.com/](https://google.com/)
+* [ftp://ftp.us.debian.org/debian/](ftp://ftp.us.debian.org/debian/)
+* smb://foo/bar/baz
+* irc://irc.freenode.net/gitlab
 * [http://localhost:3000](http://localhost:3000/)
 
 ## Multiline Blockquote 
