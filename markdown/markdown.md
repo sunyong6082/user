@@ -10,6 +10,26 @@ Where there are significant differences, we will try to call them out in this do
 GitLab uses "GitLab Flavored Markdown" (GFM). It extends the standard Markdown in a few significant ways to add some useful functionality. It was inspired by [GitHub Flavored Markdown](https://help.github.com/articles/basic-writing-and-formatting-syntax/).
 
 You can use GFM in the following areas:
+* comments
+* issues
+* merge requests
+* milestones
+* snippets (the snippet must be named with a .md extension)
+* wiki pages (currently only rendered by Redcarpet)
+* markdown documents inside the repository (currently only rendered by Redcarpet)
+* epics
+You can also use other rich text files in GitLab. You might have to install a dependency to do so. Please see the github-markup gem readme for more information.
+
+
+
+
+
+
+
+
+
+
+
 
 * [https://www.google.com](https://www.google.com/)
 
