@@ -18,11 +18,24 @@ You can use GFM in the following areas:
 * wiki pages (currently only rendered by Redcarpet)
 * markdown documents inside the repository (currently only rendered by Redcarpet)
 * epics
-You can also use other rich text files in GitLab. You might have to install a dependency to do so. Please see the github-markup gem readme for more information.
 
+You can also use other rich text files in GitLab. You might have to install a dependency to do so. Please see the [github-markup gem readme](https://github.com/gitlabhq/markup#markups) for more information.
 
+## Newlines
+>If this is not rendered correctly, see [https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#newlines](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#newlines)
 
+GFM honors the markdown specification in how [paragraphs and line breaks are handled](https://daringfireball.net/projects/markdown/syntax#p).
+A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. Line-breaks, or soft returns, are rendered if you end a line with two or more spaces:
+```Java
+Roses are red [followed by two or more spaces]  
+Violets are blue
 
+Sugar is sweet
+```
+Roses are red
+Violets are blue
+
+Sugar is sweet
 
 
 
@@ -43,4 +56,4 @@ You can also use other rich text files in GitLab. You might have to install a de
 
 * [http://localhost:3000](http://localhost:3000/)
 
-# Multiline Blockquote 
+## Multiline Blockquote 
