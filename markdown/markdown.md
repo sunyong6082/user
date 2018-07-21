@@ -11,11 +11,11 @@ GitLab uses "GitLab Flavored Markdown" (GFM). It extends the standard Markdown i
 
 You can use GFM in the following areas:
 
-[* https://www.google.com](https://www.google.com/)
+* [https://www.google.com](https://www.google.com/)
 
-[* https://google.com/](https://google.com/)
+* [https://google.com/](https://google.com/)
 
-[* ftp://ftp.us.debian.org/debian/](ftp://ftp.us.debian.org/debian/)
+* [ftp://ftp.us.debian.org/debian/](ftp://ftp.us.debian.org/debian/)
 
 * smb://foo/bar/baz
 
