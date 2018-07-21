@@ -1,4 +1,6 @@
 # Markdown
+# Contents
+- [GitLab Flavored Markdown (GFM)](##gitLab_flavored_markdown (GFM))
 ## GitLab Flavored Markdown (GFM)
 >**Note:** Not all of the GitLab-specific extensions to Markdown that are described in this document currently work on our documentation website.
 >For the best result, we encourage you to check this document out as rendered by GitLab: [markdown.md](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md)
@@ -45,7 +47,7 @@ perform_complicated_task
 
 do_this_and_do_that_and_another_thing
 ```
-perform_complicated_task
+perform_complicated_task   
 do_this_and_do_that_and_another_thing
 
 
