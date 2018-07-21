@@ -27,7 +27,7 @@ You can also use other rich text files in GitLab. You might have to install a de
 GFM honors the markdown specification in how [paragraphs and line breaks are handled](https://daringfireball.net/projects/markdown/syntax#p).
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. Line-breaks, or soft returns, are rendered if you end a line with two or more spaces:
 ```Java
-Roses are red [followed by two or more spaces]  
+Roses are red [followed by two or more spaces]           
 Violets are blue
 
 Sugar is sweet
