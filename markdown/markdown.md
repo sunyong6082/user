@@ -36,7 +36,17 @@ Roses are red
 Violets are blue
 
 Sugar is sweet
+## Multiple underscores in words 
+>If this is not rendered correctly, see [https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#multiple-underscores-in-words](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#multiple-underscores-in-words)
 
+It is not reasonable to italicize just part of a word, especially when you're dealing with code and names that often appear with multiple underscores. Therefore, GFM ignores multiple underscores in words:
+```Java
+perform_complicated_task
+
+do_this_and_do_that_and_another_thing
+```
+perform_complicated_task
+do_this_and_do_that_and_another_thing
 
 
 
