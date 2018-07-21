@@ -53,7 +53,7 @@ do_this_and_do_that_and_another_thing
 >If this is not rendered correctly, see https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#url-auto-linking
 
 GFM will autolink almost any URL you copy and paste into your text:
-```Java
+```C++
 * https://www.google.com
 * https://google.com/
 * ftp://ftp.us.debian.org/debian/
@@ -69,3 +69,26 @@ GFM will autolink almost any URL you copy and paste into your text:
 * [http://localhost:3000](http://localhost:3000/)
 
 ## Multiline Blockquote 
+>If this is not rendered correctly, see [https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#multiline-blockquote](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/user/markdown.md#multiline-blockquote)
+
+On top of standard Markdown [blockquotes](https://docs.gitlab.com/ee/user/markdown.html#blockquotes), which require prepending > to quoted lines, GFM supports multiline blockquotes fenced by >>>:
+```
+>>>
+If you paste a message from somewhere else
+
+that
+
+spans
+
+multiple lines,
+
+you can quote that without having to manually prepend `>` to every line!
+>>>
+```
+>>>If you paste a message from somewhere else
+that
+spans
+multiple lines,
+you can quote that without having to manually prepend > to every line!
+>>> 
+
